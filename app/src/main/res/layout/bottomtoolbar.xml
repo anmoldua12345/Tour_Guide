@@ -1,0 +1,32 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="#7B1FA2"
+android:id="@+id/tbbottom"
+android:layout_alignParentBottom="true"
+    android:elevation="20dp"
+    >
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/satellite"/>
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/terrain"
+        android:layout_marginLeft="30dp"
+       />
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plus"
+        android:layout_marginLeft="30dp"
+        />
+
+</android.support.v7.widget.Toolbar>
